@@ -1,4 +1,4 @@
-FROM diginc/pi-hole:alpine
+FROM diginc/pi-hole:debian
 LABEL org.freenas.interactive="false" \ 
       org.freenas.version=“1.0” \
       org.freenas.upgradeable="false" \
