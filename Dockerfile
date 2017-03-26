@@ -14,27 +14,27 @@ LABEL org.freenas.interactive="false" \
       org.freenas.settings="[ 						\
           {								\
               \"env\": \"ServerIP\",						\
-              \"descr\": \"Set to your server's external IP in order to override what Pi-Hole uses. Pi-Hole auto discovers the unusable internal docker IP otherwise\",		\
+              \"descr\": \"Set to your server's external IP\",		\
               \"optional\": false					\
-          }	
+          {								\
           {								\
               \"env\": \"WEBPASSWORD\",						\
-              \"descr\": \"Set this to your desired password or first boot will randomly set one.\",		\
+              \"descr\": \"Set admin password.\”,		\
               \"optional\": false					\
           }								\
           {								\
               \"env\": \"DNS1\",						\
-              \"descr\": \"Set this to your desired password or first boot will randomly set one.\",		\
+              \"descr\": \”Defaults to google.\”,		\
               \"optional\": true					\
           }								\
           {								\
               \"env\": \"DNS1\",						\
-              \"descr\": \"Set this to your desired password or first boot will randomly set one.\",		\
+              \"descr\": \”Defaults to google.\”,		\
               \"optional\": true					\
           }								\
           {								\
               \"env\": \"VIRTUAL_HOST\",						\
-              \"descr\": \"web server 'virtual host' address for accessing admin. Allows you to make changes to the whitelist / blacklists in addition to the default 'http://pi.hole/admin/' address\",		\
+              \"descr\": \"web server DNS address. Default http://pi.hole/admin/'\",		\
               \"optional\": true					\
           }								\
       ]"
