@@ -10,32 +10,5 @@ LABEL org.freenas.interactive="false" \
               \"name\": \"/etc/pihole/\",					\
               \"descr\": \"Path to Pi-hole configs\”			\
           }								\
-      ]" \
-      org.freenas.settings="[ 						\
-          {								\
-              \"env\": \"ServerIP\",						\
-              \"descr\": \"Set to your server's external IP\",		\
-              \"optional\": false					\
-          {								\
-          {								\
-              \"env\": \"WEBPASSWORD\",						\
-              \"descr\": \"Set admin password.\”,		\
-              \"optional\": false					\
-          }								\
-          {								\
-              \"env\": \"DNS1\",						\
-              \"descr\": \”Defaults to google.\”,		\
-              \"optional\": true					\
-          }								\
-          {								\
-              \"env\": \"DNS1\",						\
-              \"descr\": \”Defaults to google.\”,		\
-              \"optional\": true					\
-          }								\
-          {								\
-              \"env\": \"VIRTUAL_HOST\",						\
-              \"descr\": \"web server DNS address.'\",		\
-              \"optional\": true					\
-          }								\
       ]"
 
