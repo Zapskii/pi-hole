@@ -34,7 +34,7 @@ LABEL org.freenas.interactive="false" \
           }								\
           {								\
               \"env\": \"VIRTUAL_HOST\",						\
-              \"descr\": \"web server DNS address. Default http://pi.hole/admin/'\",		\
+              \"descr\": \"web server DNS address.'\",		\
               \"optional\": true					\
           }								\
       ]"
